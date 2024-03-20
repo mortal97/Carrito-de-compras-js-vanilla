@@ -1,5 +1,5 @@
 //proyecto carrito js
-//crear un carrito de compras en javascript con funciones para agregar y elimin
+//crear un carrito de compras en javascript con funciones para agregar y eliminar
 //variables
 const carrito=document.querySelector('#carrito');
 const contenedorCarrito=document.querySelector('#lista-carrito tbody');
@@ -8,7 +8,7 @@ const listaCursos=document.querySelector('#lista-cursos')
 let articulos=[]
 
 cargarEventos();
-//eventos vargados
+//eventos cargados
 function cargarEventos(){
 listaCursos.addEventListener('click',agregarCurso)
 carrito.addEventListener('click',eliminar)
